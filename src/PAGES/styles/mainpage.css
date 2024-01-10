@@ -1,0 +1,81 @@
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+.Transaction_Box {
+  background-color: #4caf50; /* Green background color */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff; /* Text color */
+  width: 300px; /* Adjust the width as needed */
+  margin-top: 20px; /* Add spacing from the heading */
+}
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  h2{
+    text-align: left;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+  }
+  .nav img{
+    border-radius: 50%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #fff; /* White background color for the button */
+    color: #4caf50; /* Green text color for the button */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4caf50; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  .tran {
+    background-color: #f1f1f1; /* Light gray background color */
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 4px solid #4caf50;     max-width: 200px;
+  }
+  
+  .tran h2 {
+    margin: 0; /* Remove default margin to ensure spacing consistency */
+  }
+  
+  .tran h2:first-child {
+    color: #4caf50; /* Green text color for the first h2 (amount) */
+  }
+  
+  .tran h2:last-child {
+    font-weight: bold; /* Make the second h2 (name) bold */
+  }
